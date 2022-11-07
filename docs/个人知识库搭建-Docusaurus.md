@@ -177,7 +177,10 @@ git push -u origin main  //一定要注意，是 push 到 main 分支!
 ### 3.4后续推送
 ```shell
 git add .
-git
+git config core.autocrlf false
+git commit -m "xxxx"
+git push origin main
+
 ```
 
 
