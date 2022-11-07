@@ -65,7 +65,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: '部署教程',
+            docId: '个人知识库搭建-Docusaurus',
             position: 'right',   //改变左右
             label: '杂谈与效率',
           },

@@ -30,7 +30,7 @@ const sidebars = {
    */
 
 
-/*  效率与杂谈: [
+ /* 效率与杂谈: [
     'home',
     {
       type: 'category',
