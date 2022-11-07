@@ -90,11 +90,96 @@ cd [name]（在本例子中即为 "cd mysite"）
 npm run start
 ```
 
-## 2.Docusaurus部署  
+## 2.将 Docusaurus 部署到云端  
 
-### 2.1注册并登录 [*Vercel*](https://vercel.com/) 账户
-![Docusaurus](/img/p1.png)
-![2](/Efficiency_and_Miscellaneous/p1.png)
+上述步骤 `1` 只是将我们的 Docusaurus 在本地部署了，即只有本地可以访问创建的 Docusaurus 知识库项目，而无法在互联网上访问到此站点，因此，我们需要将我们的 Docusaurus 知识库项目部署到云端，这里采用的是 Vercel+GitHub 的方式来进行云端部署，若部署顺利，则可让其他用户从互联网上进行访问。
+
+
+### 2.1注册 GitHub 账户
+
+在 [*GitHub官网*](https://github.com/join) 注册自己的 GitHub 账户
+
+
+### 2.2创建 GitHub 仓库
+
+此仓库用于在云端保存我们的 Docusaurus 知识库项目
+
+![p3](/Efficiency_and_Miscellaneous/p3.png)
+
+
+### 2.3安装 Git
+
+从 [*Git 官网*](https://git-scm.com/downloads) 下载 Git 软件，并完成安装
+
+重启 vs code，打开终端，使用以下命令初始化 Git，并进行验证，其实就是将本地 Git 与云端 GitHub 绑定
+```shell
+git config --global user.name "username"
+git config --global user.email "email@example.com"
+```
+
+
+### 2.4将本地 Docusaurus 知识库项目推送到 Github
+
+可使用下列命令进行推送，推送到 `2.2` 步骤中创建的GitHub 仓库
+
+```shell
+git init
+git config core.autocrlf false  //解决 warning: LF will be replaced by CRLF in ** 警告
+git add .
+git remote add origin git@github.com:system/system.git  //git@github.com:system/system.git为你的仓库地址
+git commit -m "xxx"
+git branch -M main
+git push -u origin main  //一定要注意，是 push 到 main 分支!
+
+```
+
+
+### 2.5注册并登录 [*Vercel*](https://vercel.com/) 账户
+
+我们可以根据以下图片所示，点击注册并且登录我们的 Vercel 账户
+
+![p1](/Efficiency_and_Miscellaneous/p1.png)
+
+将 Vercel 跟我们的 GitHub 知识库仓库绑定
+
+![p2](/Efficiency_and_Miscellaneous/p2.png)
+
+
+### 2.6使用 Vercel 生成我们的博客页面
+
+点击 Deploy 即可生成我们的博客页面
+
+![p4](/Efficiency_and_Miscellaneous/p4.png)
+
+
+## 3.FAQ
+
+### 3.1 Vercel 分支问题
+
+一般我们都会习惯性把我们的本地仓库推送到 GitHub 的 master 分支，但是 Vercel 默认是使用 main 分支来生成我们的页面的，所以这里千万要注意！
+
+
+### 3.2 warning: LF will be replaced by CRLF in ** 的原因及解决办法
+
+当我们使用 `git add .` 命令之前，我们先使用 `git config core.autocrlf false` 命令即可
+
+
+### 3.3解决 Failed to connect to github.com port 443:connection timed out
+
+在推送时我们可能会遇到这个错误，那么可以使用以下命令解决
+```shell
+取消代理：
+        git config --global --unset http.proxy
+        git config --global --unset https.proxy
+```
+
+
+### 3.4后续推送
+```shell
+git add .
+git
+```
+
 
 
 ## 参考致谢
