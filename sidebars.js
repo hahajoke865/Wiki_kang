@@ -40,6 +40,35 @@ const sidebars = {
     ],
     },
   ],*/
+
+  测试: [
+    {
+      type: 'category',
+      label: '基础知识',
+      link: {
+        type: 'generated-index',
+        //description: '',
+        keywords: ['硬件与半导体', '硬件与半导体基础知识', '电阻', '电容', '电感', '磁珠', '二极管', '三极管', 'MOS', '运算放大器', '数字电路', '设计规范', '推挽开漏', '共模差模', '储存介质', '锂电池', '编码器'],
+      },
+      items: [
+        '个人知识库搭建-Docusaurus',
+      ],
+    },
+
+    {
+      type: 'category',
+      label: '嵌入式硬件',
+      link: {
+        type: 'generated-index',
+        //description: ' ',
+        //keywords: ['硬件与半导体', '协议', '通信协议', '逻辑电平', 'SPI', 'I2C', 'CAN', 'USB', ],
+      },
+      items: [
+        
+        //'X86平台的硬件测试',
+      ],
+    },
+  ],
 };
 
 module.exports = sidebars;

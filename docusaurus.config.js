@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/myblog_logo.jpg',   //改变页头图标
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -65,16 +65,16 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: '个人知识库搭建-Docusaurus',
+            docId: '个人知识库搭建-Docusaurus',   //跳转到对应目录
             position: 'right',   //改变左右
             label: '杂谈与效率',
           },
 
-         /* {
-            to: "效率与杂谈",
-            label: "效率与杂谈",
+          {
+            to: "测试",
+            label: "测试",
             position: "right",
-          },*/
+          },
           {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -126,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,  //页脚版权
+       // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,  //页脚版权
       },
       prism: {
         theme: lightCodeTheme,
