@@ -104,7 +104,7 @@ npm run start
 
 此仓库用于在云端保存我们的 Docusaurus 知识库项目
 
-![p3](/Efficiency_and_Miscellaneous/p3.png)
+![p3](/Efficiency_and_Miscellaneous/p3.jpg)
 
 
 ### 2.3安装 Git
@@ -142,14 +142,14 @@ git push -u origin main  //一定要注意，是 push 到 main 分支!
 
 将 Vercel 跟我们的 GitHub 知识库仓库绑定
 
-![p2](/Efficiency_and_Miscellaneous/p2.png)
+![p2](/Efficiency_and_Miscellaneous/p2.jpg)
 
 
 ### 2.6使用 Vercel 生成我们的博客页面
 
 点击 Deploy 即可生成我们的博客页面
 
-![p4](/Efficiency_and_Miscellaneous/p4.png)
+![p4](/Efficiency_and_Miscellaneous/p4.jpg)
 
 
 ## 3.FAQ
