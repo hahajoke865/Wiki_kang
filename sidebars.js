@@ -28,6 +28,18 @@ const sidebars = {
     },
   ],
    */
+
+
+/*  效率与杂谈: [
+    'home',
+    {
+      type: 'category',
+      label: '一些软件部署',
+      items: ['hugo部署',
+              'docusaurus部署'
+    ],
+    },
+  ],*/
 };
 
 module.exports = sidebars;
