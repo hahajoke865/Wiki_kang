@@ -70,12 +70,12 @@ const config = {
             label: '杂谈与效率',
           },
 
-          {
+         /* {
             to: "测试",
             label: "测试",
             position: "right",
-          },
-          {to: '/blog', label: 'Blog', position: 'right'},
+          },*/
+          {to: '/blog', label: 'Blog', position: 'right'},  //原来这里时单独一项
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
