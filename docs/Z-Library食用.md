@@ -42,9 +42,9 @@
 
 ![p5](/Efficiency_and_Miscellaneous/p5.png)
 
-#### 方法1
+### 方法1
 
-使用 [*Tor browser 官网*](https://www.torproject.org/)，`Tor browser` 是一款浏览器，我们需要下载他，通过他来访问 `Z-Library`，在 `Tor browser` 中使用 `Z-Library` 登录成功界面给出的 `Tor site` 网址访问即可
+登录 [*Tor browser 官网*](https://www.torproject.org/)，`Tor browser` 是一款浏览器，我们需要下载他，通过他来访问 `Z-Library`，在 `Tor browser` 中使用 `Z-Library` 登录成功界面给出的 `Tor site` 网址访问即可
 
 ### 方法2
 使用 telegram 的方式来进行访问，我们可以登录 [*telegram*](https://telegram.org/) 进行telegram 的下载，具体的流程可以参考 [*telegram 连接 Z-Library 参考网站*](https://sunine.notion.site/sunine/Telegram-Z-Library-0308659487ac45e78ec1fd2e02fcee6e)
@@ -69,6 +69,7 @@
 ## 参考致谢
 
 [*知乎：10个外文书籍搜索网站*](https://zhuanlan.zhihu.com/p/508022730)
+
 [*安装 Telegram 下载 Z-Library 图书*](https://sunine.notion.site/sunine/Telegram-Z-Library-0308659487ac45e78ec1fd2e02fcee6e)
 
 

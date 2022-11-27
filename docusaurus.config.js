@@ -85,7 +85,7 @@ const config = {
       },
       footer: {    //页脚页尾
         style: 'dark',
-        links: [
+        /*links: [
           {
             title: '文档',
             items: [
@@ -125,7 +125,7 @@ const config = {
               },
             ],
           },
-        ],
+        ],*/
        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,  //页脚版权
       },
       prism: {
