@@ -174,7 +174,14 @@ git push -u origin main  //一定要注意，是 push 到 main 分支!
 ```
 
 
-### 3.4后续推送
+### 3.4在本地查看效果
+```shell
+npm run build
+npm run serve
+```
+
+
+### 3.5后续推送
 ```shell
 git add .
 git config core.autocrlf false
